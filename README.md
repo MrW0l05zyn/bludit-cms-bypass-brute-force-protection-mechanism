@@ -1,6 +1,6 @@
 # Bludit CMS: bypass brute force protection mechanism
 
-- Autor: rastating - https://rastating.github.io/bludit-brute-force-mitigation-bypass/
+- Autor: [rastating](https://github.com/rastating) - https://rastating.github.io/bludit-brute-force-mitigation-bypass/
 - Modificación/adaptación: Marcelo Woloszyn
 - Versiones afectadas: Bludit CMS <= 3.9.2
 - CVE: [2019-17240](https://nvd.nist.gov/vuln/detail/CVE-2019-17240)
