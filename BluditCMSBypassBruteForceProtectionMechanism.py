@@ -4,7 +4,7 @@
 # Modificación/adaptación: MrW0l05zyn - https://github.com/MrW0l05zyn/bludit-cms-bypass-brute-force-protection-mechanism
 # Versiones afectadas: Bludit CMS <= 3.9.2
 # CVE: 2019-17240
-# Descripción: permite realizar bypass (eludir) el mecanismo de protección de fuerza bruta de Bludit CMS versión 3.9.2 o inferior, mediante el uso de diferentes encabezados HTTP X-Forward-For falsificados.
+# Descripción: permite realizar bypass (eludir) el mecanismo de protección de fuerza bruta de Bludit CMS versión 3.9.2 o inferior, mediante el uso de diferentes encabezados HTTP X-Forwarded-For falsificados.
 # Solución: actualice a una versión posterior a 3.9.2 o aplique el parche que se encuentra en https://github.com/bludit/bludit/pull/1090
 '''
 
@@ -77,7 +77,7 @@ print('* URL: ' + loginURL)
 print('* User: ' + argumentos.username)
 print()
 
-#fuerza bruta de contraseñas con bypass
+# fuerza bruta de contraseñas con bypass
 for password in passwordsList:
 
     try:
