@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 '''
 # Titulo: Bludit CMS - bypass brute force protection mechanism.
 # Autor: rastating - https://rastating.github.io/bludit-brute-force-mitigation-bypass/

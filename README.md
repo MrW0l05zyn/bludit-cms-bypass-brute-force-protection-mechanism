@@ -9,12 +9,12 @@
 
 ## Uso
 ```
-BluditCMSBypassBruteForceProtectionMechanism.py -t TARGET/HOST -l LOGIN-URL -u USERNAME -w WORDLIST
+bluditCMSBypassBruteForceProtectionMechanism.py -t TARGET/HOST -l LOGIN-URL -u USERNAME -w WORDLIST
 ```
 
 ## Ejemplo de utilización
 ```
-./BluditCMSBypassBruteForceProtectionMechanism.py -t http://10.0.0.0 -l /admin/ -u admin -w wordlist.txt
+./bluditCMSBypassBruteForceProtectionMechanism.py -t http://10.0.0.0 -l /admin/ -u admin -w wordlist.txt
 ```
 
 ## Argumentos
